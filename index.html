@@ -18,7 +18,8 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Shakkir K P","jobTitle":"Senior HR Business Partner","url":"https://shakkirkp.com","email":"kpshakkir7@gmail.com","telephone":"+918129052800","address":{"@type":"PostalAddress","addressLocality":"Bangalore","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/shakkir-kp","https://topmate.io/shakkir_kp"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#07090F;--paper2:#0B0F1A;--paper3:#10141F;--surface:#10141F;--surface2:#151B2B;
@@ -28,7 +29,7 @@
   --sage:#3DBE7B;--sagefade:rgba(61,190,123,.1);--sageline:rgba(61,190,123,.32);
   --gold:#E2B05B;--goldfade:rgba(226,176,91,.1);
   --line:rgba(237,234,224,.10);--line2:rgba(237,234,224,.18);--line3:rgba(237,234,224,.07);
-  --display:'Space Grotesk',system-ui,sans-serif;
+  --display:'Clash Display','Space Grotesk',system-ui,sans-serif;
   --serif:'Space Grotesk',system-ui,sans-serif;
   --sans:'Inter',system-ui,sans-serif;
   --mono:'JetBrains Mono',ui-monospace,monospace;
@@ -91,9 +92,9 @@ nav.filled{background:rgba(248,245,240,.96);backdrop-filter:blur(20px);box-shado
 @keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(42,134,84,.5)}50%{box-shadow:0 0 0 5px rgba(42,134,84,0)}}
 .eyebrow{font-family:var(--mono);font-size:.63rem;letter-spacing:.2em;text-transform:uppercase;color:var(--terra);display:inline-flex;align-items:center;gap:12px;margin-bottom:18px}
 .eyebrow::before{content:'';width:24px;height:1px;background:var(--terra);flex-shrink:0}
-h1{font-family:var(--display);font-size:clamp(3.1rem,6.1vw,6rem);font-weight:500;line-height:1;letter-spacing:-.035em;color:var(--charcoal);margin-bottom:28px;font-variation-settings:"opsz" 96;font-feature-settings:"ss01","ss02"}
+h1{font-family:var(--display);font-size:clamp(2.9rem,5.7vw,5.6rem);font-weight:600;line-height:1.02;letter-spacing:-.02em;color:var(--charcoal);margin-bottom:28px;font-variation-settings:"opsz" 96;font-feature-settings:"ss01","ss02"}
 h1 em{font-family:var(--serif);font-style:italic;color:var(--terra);font-weight:400;letter-spacing:-.018em}
-h1 .wt{font-weight:700;letter-spacing:-.04em}
+h1 .wt{font-weight:700;letter-spacing:-.025em}
 .hdesc{font-size:1.02rem;color:var(--char3);line-height:1.88;max-width:520px;margin-bottom:38px;font-weight:400}
 .hdesc strong{color:var(--charcoal);font-weight:600}
 .hbtns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:60px}
@@ -158,7 +159,7 @@ h1 .wt{font-weight:700;letter-spacing:-.04em}
 .sec{padding:120px 52px;max-width:var(--max);margin:0 auto}
 .sfull{padding:120px 0}
 .sfull .sec{padding-top:0;padding-bottom:0}
-h2{font-family:var(--display);font-size:clamp(2.1rem,3.7vw,3.3rem);font-weight:600;line-height:1.05;letter-spacing:-.025em;margin-bottom:24px;color:var(--charcoal);font-variation-settings:"opsz" 72}
+h2{font-family:var(--display);font-size:clamp(2.05rem,3.6vw,3.2rem);font-weight:600;line-height:1.06;letter-spacing:-.018em;margin-bottom:24px;color:var(--charcoal);font-variation-settings:"opsz" 72}
 h2 em{font-family:var(--serif);font-style:italic;color:var(--terra);font-weight:400;letter-spacing:-.005em}
 .ey-dark{color:rgba(248,245,240,.35)}
 .ey-dark::before{background:rgba(248,245,240,.35)}
@@ -924,9 +925,9 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
     <ul class="nlinks">
       <li><a href="#about">About</a></li>
       <li><a href="#results">Results</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li></li>
       <li><a href="#services">Services</a></li>
-      <li><a href="#writing">Writing</a></li>
+      <li><a href="writing.html">Writing</a></li>
       <li><a href="#contact" class="ncta">Let's Connect</a></li>
     </ul>
     <button class="ham" id="ham" onclick="tNav()" aria-label="Menu" aria-expanded="false">
@@ -937,9 +938,7 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
 <nav class="mob" id="mob">
   <a href="#about" onclick="tNav()">About</a>
   <a href="#results" onclick="tNav()">Results</a>
-  <a href="#projects" onclick="tNav()">Projects</a>
   <a href="#services" onclick="tNav()">Services</a>
-  <a href="#writing" onclick="tNav()">Writing</a>
   <a href="#contact" onclick="tNav()">Let's Connect →</a>
 </nav>
 
@@ -1021,7 +1020,7 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
 <div class="sec">
   <div class="agrid">
     <div class="r">
-      <div class="eyebrow">About</div>
+      <div class="eyebrow">Flipkart &middot; Ciel Et Terre &middot; Startups</div>
       <h2>Three environments.<br><em>One through-line.</em></h2>
       <div class="about-pull">"I don't believe HR is a support function. It's a business lever that's chronically under-deployed."</div>
       <div class="abody">
@@ -1116,8 +1115,6 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
       <div><p class="svc-sub">Most engagements begin with a free 20-minute call. <a href="#contact">Not sure where to start? Let's talk first →</a></p></div>
     </div>
     <div class="svc-grid">
-      <div class="sc r"><div class="sc-accent"></div><div class="sc-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7z"/><path d="M14 3v4h4"/><path d="M9.5 12.5h5M9.5 16h5"/></svg></div><div class="sc-name">Resume &amp; ATS Optimisation</div><div class="sc-price">From ₹999 · 48hr turnaround</div><p class="sc-desc">Your resume might be invisible to 70% of companies before a human reads it. I review for ATS compatibility, positioning clarity, and role-fit language.</p><ul class="sc-list"><li>Full ATS keyword audit</li><li>Positioning rewrite, no buzzword padding</li><li>LinkedIn headline + About section advisory</li><li>Interview strategy framework</li></ul><a href="https://topmate.io/shakkir_kp/" target="_blank" rel="noopener" class="sc-link">Book on Topmate →</a></div>
-      <div class="sc hot r r2"><div class="sc-accent"></div><span class="sc-tag">Most Booked</span><div class="sc-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor"/></svg></div><div class="sc-name">1:1 HR &amp; Career Consultation</div><div class="sc-price">₹499 / 30 min · ₹799 / 60 min</div><p class="sc-desc">For HR professionals navigating career transitions, founders asking "do we need HR yet?", or individuals facing complex workplace situations.</p><ul class="sc-list"><li>Career strategy for HR professionals</li><li>Founder advisory: when &amp; how to hire HR</li><li>ER / workplace conflict guidance</li><li>Interview prep for HRBP &amp; senior HR</li></ul><a href="https://topmate.io/shakkir_kp/" target="_blank" rel="noopener" class="sc-link">Book on Topmate →</a></div>
       <div class="sc r r3"><div class="sc-accent"></div><div class="sc-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15M5 7h14M9 19h6"/><path d="M5 7 2.8 12.6a2.6 2.6 0 0 0 4.4 0zM19 7l-2.2 5.6a2.6 2.6 0 0 0 4.4 0z"/></svg></div><div class="sc-name">HR Compliance Audit</div><div class="sc-price">From ₹8,000 · India-focused</div><p class="sc-desc">For startups in the 10–100 headcount zone that have been "figuring it out" without a compliance baseline.</p><ul class="sc-list"><li>POSH, EPF, ESI, Shops Act gaps</li><li>Employment contract &amp; offer letter review</li><li>Payroll and leave policy alignment</li><li>Priority action report</li></ul><a href="#contact" class="sc-link">Request Audit →</a></div>
       <div class="sc r"><div class="sc-accent"></div><div class="sc-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.2"/><path d="m20.2 20.2-4.6-4.6"/></svg></div><div class="sc-name">Recruitment Advisory</div><div class="sc-price">Advisory from ₹5,000 · Retainer available</div><p class="sc-desc">Hiring strategy, JD design, sourcing mix, interview process. Close the right hire instead of the available one.</p><ul class="sc-list"><li>Role scoping and JD development</li><li>Sourcing channel strategy</li><li>Interview framework design</li><li>Offer benchmarking advisory</li></ul><a href="#contact" class="sc-link">Start a Hiring Project →</a></div>
       <div class="sc r r2"><div class="sc-accent"></div><div class="sc-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v16"/><path d="M15 9h4a1 1 0 0 1 1 1v11"/><path d="M2 21h20M8 8h2.5M8 12h2.5M8 16h2.5"/></svg></div><div class="sc-name">Startup HR Setup</div><div class="sc-price">From ₹15,000 · 2–4 week engagement</div><p class="sc-desc">HR held together with WhatsApp messages and verbal promises. I build the foundation before it collapses under headcount.</p><ul class="sc-list"><li>Full HR policy suite &amp; handbook</li><li>Org design and job descriptions</li><li>Onboarding process &amp; documentation</li><li>HRMS recommendation &amp; setup</li></ul><a href="#contact" class="sc-link">Build Your HR Foundation →</a></div>
@@ -1129,7 +1126,7 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
 <!-- RESULTS -->
 <div id="results" class="nums-wrap">
   <div class="nums-inner">
-    <div class="r"><div class="eyebrow">Real Outcomes</div><h2>Numbers that<br><em>actually moved</em> the business.</h2><p style="color:var(--char4);font-size:.95rem;margin-top:14px;max-width:540px;line-height:1.7">Every number below is from real engagements at real companies. No projections. No "estimated impact." Just outcomes that showed up in the P&amp;L.</p></div>
+    <div class="r"><div class="eyebrow">Measured, not claimed</div><h2>Numbers that<br><em>actually moved</em> the business.</h2><p style="color:var(--char4);font-size:.95rem;margin-top:14px;max-width:540px;line-height:1.7">Every number below is from real engagements at real companies. No projections. No "estimated impact." Just outcomes that showed up in the P&amp;L.</p></div>
     <div class="nums-grid">
       <div class="num r"><div class="num-n">75%</div><div class="num-c">Flipkart · 2023–24</div><div class="num-l">Onboarding TAT cut from 24hr to 6hr across 1 Lakh+ gig workforce</div></div>
       <div class="num r r2"><div class="num-n">₹24L</div><div class="num-c">Ciel Et Terre · Annual</div><div class="num-l">Hiring cost savings through sourcing optimisation &amp; reduced vendor dependency</div></div>
@@ -1138,55 +1135,21 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
     </div>
     <div class="cases">
       <div class="case r"><div class="case-cat">Case Study · Workforce Ops</div><div class="case-title">Cutting onboarding time 75% at a 1 Lakh+ gig ecosystem</div><p class="case-body">Flipkart's last-mile delivery workforce was growing faster than its onboarding process could handle. Led a 12-member COE and engineered end-to-end automation of BGV and documentation workflows. Peak cycles met with zero shortfall.</p><span class="case-result">↓ 75% TAT · 1 Lakh+ workforce</span></div>
-      <div class="case r r2"><div class="case-cat">Case Study · L&amp;D Build · Ciel Et Terre</div><div class="case-title">Zero to structured L&amp;D for a global deep-tech solar company</div><p class="case-body">Conceived and launched SPARK, starting with MS Excel upskilling, scaled to expert-led sessions. Led full LMS implementation anchored in TNA and competency mapping. OKR-based PMS rollout delivered alongside.</p><span class="case-result">0 → Full L&amp;D · LMS live · OKR PMS</span></div>
+      <div class="case r r2"><div class="case-cat">Case Study · Capability Building · Ciel Et Terre</div><div class="case-title">Building L&amp;D capability from scratch at a global deep-tech solar company</div><p class="case-body">Our team built the L&amp;D function from the ground up, conceiving and launching SPARK, a structured capability programme starting with MS Excel upskilling and scaling to expert-led sessions. Rolled out a full LMS anchored in TNA and competency mapping, with OKR-based PMS delivered alongside.</p><span class="case-result">Built from scratch · LMS live · OKR PMS</span></div>
       <div class="case r r3"><div class="case-cat">Case Study · HR Foundation</div><div class="case-title">Sole HR hire: entire people function built from scratch in 6 months</div><p class="case-body">Joined SRV Infotech as the only HR professional with no existing processes. Built the complete HR function: policy suite, org design, hiring, onboarding, exit management, and engagement framework, in 6 months.</p><span class="case-result">Full HR function · Solo · 6 months</span></div>
-    </div>
-  </div>
-</div>
-
-<!-- SIGNATURE PROJECTS -->
-<div id="projects" class="proj-wrap">
-  <div class="r"><div class="eyebrow">Where the work lived</div><h2>Four projects that<br><em>defined the operator.</em></h2><p style="color:var(--char4);font-size:.95rem;margin-top:14px;max-width:540px;line-height:1.7">Not a portfolio of decks. The operational work. What was actually built, what broke, and what shipped.</p></div>
-  <div class="proj-grid">
-    <div class="proj-card highlight r">
-      <div class="proj-num">01</div>
-      <div class="proj-tag"><span class="proj-tag-dot"></span>Workforce Ops · Flipkart</div>
-      <div class="proj-title">Onboarding Automation at Flipkart: 75% TAT Reduction</div>
-      <p class="proj-body">Led a 12-member Onboarding COE to automate BGV and documentation workflows end-to-end across Flipkart's 1 Lakh+ gig delivery ecosystem. Manual 24-hour activation processes were replaced with digital-first, automated pipelines. Built Looker Studio and Excel dashboards tracking onboarding conversion, activation rates, and hiring funnel metrics. During Big Billion Day and May Sale, the highest-stakes peak cycles in Indian e-commerce. The function ran with zero workforce shortfall caused by onboarding delays. The 6-hour TAT became a benchmark across the function.</p>
-      <div class="proj-metrics"><span class="proj-metric">↓ 75% TAT</span><span class="proj-metric">24hr → 6hr activation</span><span class="proj-metric">1 Lakh+ workforce</span><span class="proj-metric">Zero peak shortfall</span></div>
-    </div>
-    <div class="proj-card r r2">
-      <div class="proj-num">02</div>
-      <div class="proj-tag"><span class="proj-tag-dot"></span>L&amp;D · Ciel Et Terre</div>
-      <div class="proj-title">SPARK: Building L&amp;D from Zero at a Global Solar Company</div>
-      <p class="proj-body">Architected the L&amp;D function from scratch at Ciel Et Terre, a French deep-tech solar company with global operations. Launched SPARK as a zero-cost internal learning programme beginning with MS Excel upskilling, then scaled to expert-led external sessions. Currently driving full-scale LMS platform deployment anchored in Training Needs Analysis and competency mapping. This is the first structured capability development framework in the organisation's India history.</p>
-      <div class="proj-metrics"><span class="proj-metric">0 → Full L&amp;D division</span><span class="proj-metric">LMS implemented</span><span class="proj-metric">TNA-anchored</span></div>
-    </div>
-    <div class="proj-card r">
-      <div class="proj-num">03</div>
-      <div class="proj-tag"><span class="proj-tag-dot"></span>Employer Branding · Research</div>
-      <div class="proj-title">Employer Branding in Indian Companies: MBA Dissertation</div>
-      <p class="proj-body">Researched employer branding strategies across Indian organisations for my MBA dissertation at Aligarh Muslim University. Examined how EVP design, talent attraction mechanisms, and employer brand perception drive engagement and retention outcomes. The research explored the gap between how organisations communicate their employer brand externally and how it's experienced internally. A disconnect that drives attrition. Findings directly inform how I approach EVP design and employer brand strategy for clients today, particularly in exit management and talent attraction work.</p>
-      <div class="proj-metrics"><span class="proj-metric">AMU Dissertation</span><span class="proj-metric">EVP Design</span><span class="proj-metric">Employer Brand Strategy</span></div>
-    </div>
-    <div class="proj-card r r2">
-      <div class="proj-num">04</div>
-      <div class="proj-tag"><span class="proj-tag-dot"></span>ESG · Ciel Et Terre</div>
-      <div class="proj-title">ESG-Based CSR Framework: Environmental &amp; Social Pillars</div>
-      <p class="proj-body">Designed and operationalised a structured CSR programme aligned to Environmental and Social pillars with measurable KPIs integrated into periodic HR reporting. Led DEI initiatives including inclusive hiring practices, diversity tracking, and sensitisation programmes. Built HR dashboards covering headcount, attrition, hiring metrics, and manpower cost. Enables data-driven workforce decisions for leadership at a global solar organisation with strong ESG commitments.</p>
-      <div class="proj-metrics"><span class="proj-metric">ESG framework</span><span class="proj-metric">DEI initiatives</span><span class="proj-metric">HR dashboards</span></div>
-    </div>
+      <div class="case r r2"><div class="case-cat">Research &middot; Employer Branding</div><div class="case-title">Employer Branding in Indian Companies: MBA Dissertation</div><p class="case-body">Researched EVP design, talent attraction mechanisms, and the gap between how organisations communicate their employer brand externally and how it&rsquo;s experienced internally. Findings inform how I approach EVP design and employer brand strategy for clients today, particularly in exit management and attraction work.</p><span class="case-result">AMU Dissertation &middot; EVP Strategy</span></div>
+      </div>
   </div>
 </div>
 
 <!-- TESTIMONIALS -->
 <div class="test-wrap" id="testimonials">
-  <div class="r"><div class="eyebrow">Client Voices</div><h2>What hiring managers<br>and founders <em>actually say.</em></h2><div class="trust-line"><span class="tstar-row"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span><span class="tline-text">5/5 across every engagement · candid, unedited feedback</span></div></div>
+  <div class="r"><div class="eyebrow">Named, not anonymous</div><h2>What hiring managers<br>and founders <em>actually say.</em></h2><div class="trust-line"><span class="tstar-row"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></span><span class="tline-text">Real names, real engagements, unedited feedback</span></div></div>
   <div class="tgrid">
     <div class="tcard r">
       <div class="tcard-q">"</div>
       <div class="tstars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-      <p class="tbody">I came to Shakkir for a resume review, but what I got was a full repositioning session. He overhauled how I was presenting my TA experience, rewrote my LinkedIn headline and About section so it actually spoke to the roles I was targeting. I started getting callbacks from roles that had ghosted me earlier. He understands what hiring managers are looking for, because he's been one.</p>
+      <p class="tbody">I came to Shakkir for a resume review, but what I got was a full repositioning session. He overhauled how I was presenting my TA experience, rewrote my LinkedIn headline and About section so it actually spoke to the roles I was targeting. I started getting callbacks from roles that had ghosted me earlier. He doesn&rsquo;t fix CVs. He fixes how the market reads you.</p>
       <div class="tfoot"><div class="tav">NN</div><div><div class="tnm">Nishal Noushad</div><div class="trole">Senior Talent Acquisition · EdTech · Bangalore</div></div></div>
     </div>
     <div class="tcard r r2">
@@ -1215,38 +1178,9 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
   </div>
 </div>
 
-<!-- WRITING -->
-<div id="writing" class="writing-wrap">
-  <div class="whead r">
-    <div>
-      <div class="eyebrow">Writing &amp; Thinking</div>
-      <h2>What I write<br>about on <em>LinkedIn.</em></h2>
-      <p style="margin-top:10px;font-size:.86rem;color:var(--char4)">Unfiltered takes on HR, hiring, culture, and the future of work.</p>
-    </div>
-    <a href="https://www.linkedin.com/in/shakkir-kp" target="_blank" rel="noopener" class="btn-line r">All posts →</a>
-  </div>
-  <div class="wgrid">
-    <div class="wcard r"><div class="wtag"><span class="wdot"></span>Culture &amp; Engagement</div><div class="wtext"><strong>Culture isn't built in town halls.</strong> It's built in the small decisions no one documents. The way a manager responds to a mistake. The way an exit is handled. Trust is either earned or quietly eroded, one interaction at a time.</div><div class="wfooter"><span class="whash">#Culture #Trust</span><a href="https://www.linkedin.com/posts/shakkir-kp_culture-trust-employeeengagement-activity-7440260359095054336-CeN8" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r r2"><div class="wtag"><span class="wdot"></span>AI in HR</div><div class="wtext"><strong>AI won't replace HR.</strong> But HR professionals who don't understand AI will be replaced by those who do. The real question: are you driving it, or watching it happen to your function?</div><div class="wfooter"><span class="whash">#HR #AIinHR</span><a href="https://www.linkedin.com/posts/shakkir-kp_hr-aiinhr-futureofwork-activity-7437546565868679168-qJAy" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r r3"><div class="wtag"><span class="wdot"></span>Career &amp; Future of Work</div><div class="wtext"><strong>The skills that got you here won't take you forward.</strong> The HR professionals who thrive are those who sit in business reviews and speak the language of the room, not translate it back into HR terms later.</div><div class="wfooter"><span class="whash">#FutureOfWork #AI</span><a href="https://www.linkedin.com/posts/shakkir-kp_futureofwork-ai-careergrowth-activity-7435975257510854656-rJl1" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r"><div class="wtag"><span class="wdot"></span>HR Leadership</div><div class="wtext"><strong>We've redesigned where people work.</strong> We haven't redesigned how work is designed. HR leadership today means tackling work design, not just workforce logistics.</div><div class="wfooter"><span class="whash">#HRLeadership #WorkDesign</span><a href="https://www.linkedin.com/posts/shakkir-kp_futureofwork-hrleadership-workdesign-activity-7433497015944245248-GFtJ" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r r2"><div class="wtag"><span class="wdot"></span>Recruitment</div><div class="wtext"><strong>Recruitment is the most visible thing HR does.</strong> It's also where the most damage gets done quietly. Bad hires, slow processes. These aren't talent market problems. They're systems problems.</div><div class="wfooter"><span class="whash">#Recruitment #HR</span><a href="https://www.linkedin.com/posts/shakkir-kp_recruitment-hr-hrlife-activity-7429362722422784000-5rOp" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r r3"><div class="wtag"><span class="wdot"></span>HR Strategy</div><div class="wtext"><strong>HR stops being a cost centre the moment it speaks the language of business.</strong> The fastest way to earn a seat at the table is to stop asking for one and start showing up already fluent.</div><div class="wfooter"><span class="whash">#HR #Strategy</span><a href="https://www.linkedin.com/posts/shakkir-kp_hr-strategy-business-activity-7428996572316594177-5Kd1" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r"><div class="wtag"><span class="wdot"></span>Candidate Experience</div><div class="wtext"><strong>Candidates remember how they were treated far longer than the role they applied for.</strong> Ghosting after three rounds. These aren't experience failures. They're employer brand failures.</div><div class="wfooter"><span class="whash">#Recruiting #CX</span><a href="https://www.linkedin.com/posts/shakkir-kp_recruiting-hrthings-hr-activity-7422839773289140224-Oa3P" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r r2"><div class="wtag"><span class="wdot"></span>Talent Acquisition</div><div class="wtext"><strong>Hiring for the role you have today, not the org you're building tomorrow,</strong> is one of the most expensive things a company does. Succession thinking starts at the first hire.</div><div class="wfooter"><span class="whash">#Hiring #TA</span><a href="https://www.linkedin.com/posts/shakkir-kp_hiring-recruitment-talentacquisition-activity-7421166527783002112-Sfms" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-    <div class="wcard r r3"><div class="wtag"><span class="wdot"></span>HR Career Growth</div><div class="wtext"><strong>No one tells early-career HR professionals the job is 30% HR knowledge and 70% navigating organisations.</strong> Understanding power structures, influencing without authority. These are the actual job.</div><div class="wfooter"><span class="whash">#Career #Growth</span><a href="https://www.linkedin.com/posts/shakkir-kp_career-growth-hr-activity-7416124275193069568-ruoJ" target="_blank" rel="noopener" class="wlink">Read ↗</a></div></div>
-  </div>
-  <div style="text-align:center;margin-top:38px" class="r">
-    <a href="https://www.linkedin.com/in/shakkir-kp" target="_blank" rel="noopener" class="btn-line" style="display:inline-flex;gap:8px;align-items:center;">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      See all posts on LinkedIn
-    </a>
-  </div>
-</div>
-
 <!-- SKILLS -->
 <div class="skills-wrap" style="background:var(--paper2);border-top:1px solid var(--line2);">
-  <div class="r"><div class="eyebrow">Skills &amp; Expertise</div><h2>Tools of<br><em>the trade.</em></h2></div>
+  <div class="r"><div class="eyebrow">Strategy to systems to shipping</div><h2>Tools of<br><em>the trade.</em></h2></div>
   <div class="skills-grid">
     <div class="skill-group r">
       <div class="skill-group-title">Strategic HR</div>
@@ -1266,41 +1200,10 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
         <span class="skill-tag">Advanced Excel</span><span class="skill-tag">Power BI</span><span class="skill-tag">Looker Studio</span><span class="skill-tag">SAP SuccessFactors</span><span class="skill-tag">GreytHR</span><span class="skill-tag">LinkedIn Recruiter</span><span class="skill-tag">Naukri</span><span class="skill-tag">Google Suite</span>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- HOBBIES -->
-<div class="hobbies-wrap" id="hobbies">
-  <div class="hobbies-inner">
-    <div class="r"><div class="eyebrow">Beyond Work</div><h2>What I do<br><em>outside of HR.</em></h2><p style="color:var(--char4);font-size:.91rem;margin-top:8px;max-width:500px">People who are curious about more than one thing make better colleagues, better advisors, and better HR professionals.</p></div>
-    <div class="hobbies-grid">
-      <div class="hob r">
-        <div class="hob-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7.5 5v14M16.5 5v14M3 9.5h4.5M3 14.5h4.5M16.5 9.5H21M16.5 14.5H21"/></svg></div>
-        <div>
-          <div class="hob-name">Watching Movies</div>
-          <div class="hob-desc">Cinema is storytelling at its most concentrated: character, conflict, and resolution compressed into two hours. Good films teach you how humans behave under pressure, which turns out to be directly relevant to HR. Every great character study is a masterclass in motivation.</div>
-        </div>
-      </div>
-      <div class="hob r r2">
-        <div class="hob-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 11l7.5 2.5L13 21z"/><path d="M21 3 10.5 13.5"/></svg></div>
-        <div>
-          <div class="hob-name">Travelling</div>
-          <div class="hob-desc">Every new place is a different culture, a different way of organising society, a different set of unspoken rules. Cross-cultural workforce management starts with being genuinely curious about how other people live, and travel is the best education for that.</div>
-        </div>
-      </div>
-      <div class="hob r r3">
-        <div class="hob-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0 0 4h13"/></svg></div>
-        <div>
-          <div class="hob-name">Reading Books</div>
-          <div class="hob-desc">Books that shaped how I think: <em>The Alchemist</em> (follow what gives you meaning), <em>How to Win Friends and Influence People</em> (the original people strategy manual), and <em>Sapiens</em> (why understanding human evolution makes you a better HR professional). Non-fiction with a purpose.</div>
-        </div>
-      </div>
-      <div class="hob r r4">
-        <div class="hob-icon"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m17 3 4 4L8 20l-5 1 1-5z"/><path d="m14.5 5.5 4 4"/></svg></div>
-        <div>
-          <div class="hob-name">Content on LinkedIn</div>
-          <div class="hob-desc">Writing about HR, career growth, and the future of work on LinkedIn. I think out loud in public. It forces clarity of thought, sharpens perspective, and connects me with people asking the same questions I'm trying to answer. Writing is how I process what I observe at work.</div>
-        </div>
+    <div class="skill-group r r4">
+      <div class="skill-group-title">Modern Design &amp; Build</div>
+      <div class="skill-tags">
+        <span class="skill-tag">HTML / CSS / JS</span><span class="skill-tag">React &amp; Streamlit</span><span class="skill-tag">Figma</span><span class="skill-tag">UI/UX Thinking</span><span class="skill-tag">Prompt Engineering</span><span class="skill-tag">AI Tool Building</span><span class="skill-tag">Rapid Prototyping</span><span class="skill-tag">Design Systems</span>
       </div>
     </div>
   </div>
@@ -1311,7 +1214,7 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
   <div class="contact-inner">
     <div class="contact-grid">
       <div class="r">
-        <div class="eyebrow">Contact</div>
+        <div class="eyebrow">Open to roles &amp; consulting</div>
         <h2>Let's start a<br><em>conversation.</em></h2>
         <p class="contact-lede">Open to HRBP, Senior HR, and People Partner roles in Bangalore or remote, and available for consulting and advisory.</p>
         <div class="copts">
@@ -1379,7 +1282,7 @@ h1 em,h2 em,.cta-band h2 em{font-style:normal;font-weight:500}
       <h4>Connect</h4>
       <ul>
         <li><a href="#about">About &amp; Background</a></li>
-        <li><a href="#projects">Signature Projects</a></li>
+        <li></li>
         <li><a href="#results">Results &amp; Case Studies</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="https://topmate.io/shakkir_kp/" target="_blank" rel="noopener">Book a Session</a></li>
